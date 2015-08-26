@@ -25,7 +25,3 @@ func TestDockerRunning(t *testing.T) {
 		t.Errorf("Docker not running. try `boot2docker up`?")
 	}
 }
-
-func TestFail(t *testing.T) {
-	t.Errorf("Fail")
-}
